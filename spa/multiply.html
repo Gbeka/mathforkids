@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/spa/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Tapestry&display=swap" rel="stylesheet">
+
+
+ 
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+ 
+    <audio id="myAudio">
+        <source src="wrong.mp3" type="audio/mpeg">
+      </audio>
+
+      <audio id="right">
+        <source src="right.mp3" type="audio/mpeg">
+      </audio>
+
+      <header>
+
+   
+
+
+        <select id="select-lang" onchange="location = this.value;">
+  
+          <option value="#">Idioma</option>
+  
+          <option value="/eng/index.html">Inglesa(Eng)</option>
+          
+          <option value="/ch/index.html">Chino</option>
+  
+          <option value="/hi/index.html">Hindi</option>
+          
+          <option value="/ru/index.html">Rusa</option>
+          
+          <option value="/spa/index.html">Español</option>
+          
+          <option value="/ar/index.html">Árabe</option>
+  
+          <option value="/tur/index.html">Turca</option>
+  
+          
+          </select>
+  
+  
+  
+      <div class="container">
+          <h1>Matemáticas para niños</h1>
+          <ul>
+              <li class="current"><a href="index.html">Suma</a></li>
+              <li><a href="subtract.html">Resta</a> </li>
+              <li><a href="multiply.html">Multiplicación</a> </li>
+              <li><a href="divide.html">División</a> </li>
+  
+          </ul>
+      </div>
+  </header>
+
+<div class="wrapper">
+    <div class="equation">
+        <h1 id="num1" style="color: #fb6107;">1</h1>
+        <h1 style="color: #7cb518;">*</h1>
+        <h1 style="color: #e86252;" id="num2">1</h1>
+        <h1 style="color:#fbb02d" >=</h1>
+        <h1 style="color: #17255a;" >?</h1>
+    </div>
+
+    <div class="answer-options">
+        <div class="options">
+            <h1 id="option1">1</h1>
+        </div>
+
+        <div class="options">
+            <h1 id="option2">1</h1>
+        </div>
+
+        <div class="options">
+            <h1 id="option3">1</h1>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+<script src="./js/multiply.js"></script>
+</body>
+</html>

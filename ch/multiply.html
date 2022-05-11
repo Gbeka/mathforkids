@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/ch/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Tapestry&display=swap" rel="stylesheet">
+
+
+ 
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+ 
+    <audio id="myAudio">
+        <source src="wrong.mp3" type="audio/mpeg">
+      </audio>
+
+      <audio id="right">
+        <source src="right.mp3" type="audio/mpeg">
+      </audio>
+
+<header>
+    <select id="select-lang" onchange="location = this.value;">
+
+        <option value="#">语言</option>
+
+        <option value="/eng/index.html">英文(Eng)</option>
+        
+        <option value="/ch/index.html">中文</option>
+
+        <option value="/hi/index.html">印地语</option>
+        
+        <option value="/ru/index.html">俄语</option>
+        
+        <option value="/spa/index.html">西班牙语</option>
+        
+        <option value="/ar/index.html">阿拉伯语</option>
+
+        <option value="/tur/index.html">土耳其语</option>
+
+        
+        </select>
+    <div class="container">
+        <h1>少儿数学</h1>
+        <ul>
+            <li class="current"><a href="index.html">加法</a></li>
+            <li><a href="subtract.html">减法</a> </li>
+            <li><a href="multiply.html">乘法</a> </li>
+            <li><a href="divide.html">除法</a> </li>
+
+        </ul>
+    </div>
+</header>
+
+<div class="wrapper">
+    <div class="equation">
+        <h1 id="num1" style="color: #fb6107;">1</h1>
+        <h1 style="color: #7cb518;">*</h1>
+        <h1 style="color: #e86252;" id="num2">1</h1>
+        <h1 style="color:#fbb02d" >=</h1>
+        <h1 style="color: #17255a;" >?</h1>
+    </div>
+
+    <div class="answer-options">
+        <div class="options">
+            <h1 id="option1">1</h1>
+        </div>
+
+        <div class="options">
+            <h1 id="option2">1</h1>
+        </div>
+
+        <div class="options">
+            <h1 id="option3">1</h1>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+<script src="./js/multiply.js"></script>
+</body>
+</html>

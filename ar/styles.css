@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Tapestry&family=ZCOOL+KuaiLe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Oleo+Script+Swash+Caps&family=Radio+Canada&family=Tapestry&family=Water+Brush&family=ZCOOL+KuaiLe&display=swap');
+
+*{
+
+    font-family: 'ZCOOL KuaiLe', cursive;
+    
+}
+
+.container{
+background-color: #fbb02d;
+display: flex;
+justify-content:space-between;
+align-items: center;
+text-align: center;
+
+}
+
+.container h1{
+width: 60%;
+font-size: 4rem;
+color: #5c8001;
+
+
+}
+
+.container ul{
+    display: flex;
+    flex-wrap: wrap;
+width: 40%;
+
+
+}
+
+li{
+    list-style: none;
+    margin:20px;
+}
+
+a{
+    text-decoration: none;
+      color:#05668d; 
+      font-size: 3rem;
+      font-weight: bolder;
+}
+.wrapper{
+display: flex;
+
+}
+
+.equation{
+    display: flex;
+    width: 81%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background-color: #d4d2d5;
+    font-weight: bolder;
+}
+
+.answer-options{
+width: 19%;
+background-color: #d4d2d5;
+}
+
+.options{
+    border:2px solid black;
+    margin:5px;
+    font-size: 2rem;
+    color: #5c8001;
+    text-align: center;
+    background-color: #f3de2c;
+    border-radius: 50%;
+}
+
+
+select{
+    background-color: yellow;
+    height: 30px;
+    border: 2px solid #5c8001;
+    font-family: 'Radio Canada', sans-serif;
+}
+ select option{
+    font-family: 'Radio Canada', sans-serif;
+
+ }
+
+
+
+
+
+
+
+
+ @media (max-width:900px) {
+    ul a{
+        font-size: 1.8em;
+    }
+ }
+
+
+
+
+ 
+
+
+@media (max-width:716px) {
+    .equation{
+        font-size: 3rem;
+    }
+    .container{
+    display: flexbox;
+    flex-wrap: wrap;
+   
+    }
+    .container h1{
+        font-size: 4rem;
+      
+    }
+    .container ul{
+        width: 100%;
+    }
+ .options{
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+
+@media (max-width:570px) {
+    ul a{
+        font-size: 1.8em;
+    }
+}
+
+
+@media (max-width:440px) {
+    .options{
+        font-size: 0.7em;
+    }
+    .equation{
+        font-size: 2rem;
+    }
+    ul a{
+        font-size: 1.5em;
+    }
+    .container h1{
+        width: 100%;
+      
+    }
+}
+
+
+@media (max-width:393px) {
+    
+  li{
+      margin:10px;
+  }
+    .container h1{
+       font-size: 2rem;
+    }
+}
+
+@media (max-width:320px) {
+    ul a{
+        font-size: 1em;
+    }  
+  
+}
+
+
+@media (max-width:300px) {
+    .options{
+        font-size: 0.5em;
+    }
+    .equation{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:260px) {
+    li{
+        margin:5px;
+    }
+}
+
+@media (max-width:236px) {
+    .options{
+        font-size: 0.3em;
+    }
+    .equation{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:216px) {
+    ul a{
+        font-size: 0.5em;
+    }  
+  
+}
+
+@media (max-width:190px) {
+    .options{
+        font-size: 0.2em;
+    }
+    .equation{
+        font-size: 0.7rem;
+    }
+}
