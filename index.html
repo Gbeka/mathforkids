@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/eng/styles.css">
+    <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,50 +29,56 @@
         <source src="right.mp3" type="audio/mpeg">
       </audio>
 
+
 <header>
-  
+
    
+  
     <select id="select-lang" onchange="location = this.value;">
 
         <option value="#">Select language</option>
 
-        <option value="/eng/index.html">English</option>
+        <option value="index.html">English</option>
         
-        <option value="/ch/ch.html">Chinese</option>
+        <option value="ch/ch.html">Chinese</option>
 
-        <option value="/hi/hi.html">Hindi</option>
+        <option value="hi/hi.html">Hindi</option>
         
-        <option value="/ru/ru.html">Russian</option>
+        <option value="ru/ru.html">Russian</option>
         
-        <option value="/spa/spa.html">Spanish</option>
+        <option value="spa/spa.html">Spanish</option>
         
-        <option value="/ar/ar.html">Arabic</option>
+        <option value="ar/ar.html">Arabic</option>
 
-        <option value="/tur/tur.html">Turkish</option>
+        <option value="tur/tur.html">Turkish</option>
 
         
         </select>
-        <div class="container">
-            <h1>Math for kids</h1>
-            <ul>
-                <li class="current"><a href="index.html">Addition</a></li>
-                <li><a href="subtract.html">Subtraction</a> </li>
-                <li><a href="multiply.html">Multiplication</a> </li>
-                <li><a href="divide.html">Division</a> </li>
-    
-            </ul>
-        </div>
+
+
+
+    <div class="container">
+        <h1>Math for kids</h1>
+        <ul>
+            <li class="current"><a href="index.html">Addition</a></li>
+            <li><a href="subtract.html">Subtraction</a> </li>
+            <li><a href="multiply.html">Multiplication</a> </li>
+            <li><a href="divide.html">Division</a> </li>
+
+        </ul>
+    </div>
 </header>
 
 <div class="wrapper">
     <div class="equation">
         <h1 id="num1" style="color: #fb6107;">1</h1>
-        <h1 style="color: #7cb518;">*</h1>
+        <h1 style="color: #7cb518;">+</h1>
         <h1 style="color: #e86252;" id="num2">1</h1>
         <h1 style="color:#fbb02d" >=</h1>
         <h1 style="color: #17255a;" >?</h1>
     </div>
 
+    
     <div class="answer-options">
         <div class="options">
             <h1 id="option1">1</h1>
@@ -93,6 +99,6 @@
 
 </div>
 
-<script src="./js/multiply.js"></script>
+<script src="./js/add.js"></script>
 </body>
 </html>
